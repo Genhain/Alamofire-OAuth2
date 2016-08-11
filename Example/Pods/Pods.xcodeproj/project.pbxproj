@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1289092967D97DA38962AFD0DDE2D1B0 /* Alamofire-OAuth2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 704D6D11172C166937DF5229ADD93160 /* Alamofire-OAuth2-dummy.m */; };
+		1C75683EA30F7FEFEB54D721FCE710F6 /* OAuth2Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16AEBB776E84F713EF1299617A121536 /* OAuth2Token.swift */; };
+		1F2DB052BBEFD5BD91B7F23B7229DE24 /* Pods-Alamofire-OAuth2_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D1C04EC90F9DF4A9ECCA528F370C31F /* Pods-Alamofire-OAuth2_Tests-dummy.m */; };
+		39A812CB1137B250113E79E3FE277065 /* Pods-Alamofire-OAuth2_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B6D6D42007678C2C8C81C250C5FD1CE9 /* Pods-Alamofire-OAuth2_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6558ED9F443A86B90EF469CDF4AC3F7C /* Alamofire-OAuth2-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FD33C89354723CBC5E24C938266BA845 /* Alamofire-OAuth2-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9AB59CC1EF48F5807113FD2A885CDCD0 /* OAuth2Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBCD815ACB6532CB94B29A1BA9A290B /* OAuth2Router.swift */; };
+		9B38519DDC7309E299C84D00A46B4C7A /* OAuth2Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBE55C1273044CDB0484B5F6EF47B61 /* OAuth2Client.swift */; };
+		D859F1597D170F858FD5E52B7B23EFA8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		EDC4A193132447696D27B2693A723843 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0F4C8B98B72D40CE0D4CB40FC89E11EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68F46832B47A8A2C3D1AAFF78F6EFAA7;
+			remoteInfo = "Alamofire-OAuth2";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00CEB739F0806DDF7171F7C40E541F29 /* Alamofire_OAuth2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire_OAuth2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		09A29BBC0F6416DA07E45844D1FF6667 /* Alamofire-OAuth2.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Alamofire-OAuth2.modulemap"; sourceTree = "<group>"; };
+		13AB4454BB71F40105585037C945ED1F /* Alamofire-OAuth2-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-OAuth2-prefix.pch"; sourceTree = "<group>"; };
+		16AEBB776E84F713EF1299617A121536 /* OAuth2Token.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OAuth2Token.swift; sourceTree = "<group>"; };
+		1A6E2FBBB7589F0E61F0B3F5ACD426A6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28382D14D76007FC713AC199B7FED2F3 /* Pods-Alamofire-OAuth2_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Alamofire-OAuth2_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2BE49BEBFD0C21C2DB9ABA3C7C978DDE /* Pods-Alamofire-OAuth2_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Alamofire-OAuth2_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		4BBE55C1273044CDB0484B5F6EF47B61 /* OAuth2Client.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OAuth2Client.swift; sourceTree = "<group>"; };
+		4D1C04EC90F9DF4A9ECCA528F370C31F /* Pods-Alamofire-OAuth2_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Alamofire-OAuth2_Tests-dummy.m"; sourceTree = "<group>"; };
+		53A56DA9D5C5085E78F6A9ACC2B7C5DD /* Pods-Alamofire-OAuth2_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Alamofire-OAuth2_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		64EB39E6429F7A394279A6510FD51B3D /* Pods-Alamofire-OAuth2_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Alamofire-OAuth2_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		65A27A85AFDF5AAD74C3DEC699B69D7E /* Pods-Alamofire-OAuth2_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Alamofire-OAuth2_Tests-resources.sh"; sourceTree = "<group>"; };
+		67F6EEA572DB0A23E5339E67BD5909E8 /* Pods-Alamofire-OAuth2_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Alamofire-OAuth2_Tests.modulemap"; sourceTree = "<group>"; };
+		704D6D11172C166937DF5229ADD93160 /* Alamofire-OAuth2-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-OAuth2-dummy.m"; sourceTree = "<group>"; };
+		7EBCD815ACB6532CB94B29A1BA9A290B /* OAuth2Router.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OAuth2Router.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B6D6D42007678C2C8C81C250C5FD1CE9 /* Pods-Alamofire-OAuth2_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Alamofire-OAuth2_Tests-umbrella.h"; sourceTree = "<group>"; };
+		B77CA6B98D04C6219A507FA67F8DD7C3 /* Pods_Alamofire_OAuth2_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Alamofire_OAuth2_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C160B6CA9DD10DA36572F538266A7955 /* Alamofire-OAuth2.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Alamofire-OAuth2.xcconfig"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		EEC5C110062E71FC534C15F4728F5595 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD33C89354723CBC5E24C938266BA845 /* Alamofire-OAuth2-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-OAuth2-umbrella.h"; sourceTree = "<group>"; };
+		FDDD0E97AE74725C55853206D84B1055 /* Pods-Alamofire-OAuth2_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Alamofire-OAuth2_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E86B97FE630B2EB0B3FF47B0AF83088 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D859F1597D170F858FD5E52B7B23EFA8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEBC902DC467F228C6348E1AE9F60013 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDC4A193132447696D27B2693A723843 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080740D680D5A8C11EA560D9F30A75A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00CEB739F0806DDF7171F7C40E541F29 /* Alamofire_OAuth2.framework */,
+				B77CA6B98D04C6219A507FA67F8DD7C3 /* Pods_Alamofire_OAuth2_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1224C28C354898A561ED2F157DFF7C6C /* Alamofire-OAuth2 */ = {
+			isa = PBXGroup;
+			children = (
+				3E2631C8E8F62A736EE5FD74EDAD2326 /* Classes */,
+			);
+			path = "Alamofire-OAuth2";
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		3E2631C8E8F62A736EE5FD74EDAD2326 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4BBE55C1273044CDB0484B5F6EF47B61 /* OAuth2Client.swift */,
+				7EBCD815ACB6532CB94B29A1BA9A290B /* OAuth2Router.swift */,
+				16AEBB776E84F713EF1299617A121536 /* OAuth2Token.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		45BC6BBADA9FD29DEDB622E9F62CC7F3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB8B3CF43A4260DAED0A2A2AB1063710 /* Pods-Alamofire-OAuth2_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		73D62EDF2C96A82AC32F23C4AF5A4A88 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EFE8DDEF9036156E3CEFEC8C2FF47D91 /* Alamofire-OAuth2 */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				73D62EDF2C96A82AC32F23C4AF5A4A88 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				080740D680D5A8C11EA560D9F30A75A8 /* Products */,
+				45BC6BBADA9FD29DEDB622E9F62CC7F3 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9C53E059036ECEB56DA96ACE8C9154C8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				09A29BBC0F6416DA07E45844D1FF6667 /* Alamofire-OAuth2.modulemap */,
+				C160B6CA9DD10DA36572F538266A7955 /* Alamofire-OAuth2.xcconfig */,
+				704D6D11172C166937DF5229ADD93160 /* Alamofire-OAuth2-dummy.m */,
+				13AB4454BB71F40105585037C945ED1F /* Alamofire-OAuth2-prefix.pch */,
+				FD33C89354723CBC5E24C938266BA845 /* Alamofire-OAuth2-umbrella.h */,
+				EEC5C110062E71FC534C15F4728F5595 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Alamofire-OAuth2";
+			sourceTree = "<group>";
+		};
+		BB8B3CF43A4260DAED0A2A2AB1063710 /* Pods-Alamofire-OAuth2_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1A6E2FBBB7589F0E61F0B3F5ACD426A6 /* Info.plist */,
+				67F6EEA572DB0A23E5339E67BD5909E8 /* Pods-Alamofire-OAuth2_Tests.modulemap */,
+				28382D14D76007FC713AC199B7FED2F3 /* Pods-Alamofire-OAuth2_Tests-acknowledgements.markdown */,
+				FDDD0E97AE74725C55853206D84B1055 /* Pods-Alamofire-OAuth2_Tests-acknowledgements.plist */,
+				4D1C04EC90F9DF4A9ECCA528F370C31F /* Pods-Alamofire-OAuth2_Tests-dummy.m */,
+				53A56DA9D5C5085E78F6A9ACC2B7C5DD /* Pods-Alamofire-OAuth2_Tests-frameworks.sh */,
+				65A27A85AFDF5AAD74C3DEC699B69D7E /* Pods-Alamofire-OAuth2_Tests-resources.sh */,
+				B6D6D42007678C2C8C81C250C5FD1CE9 /* Pods-Alamofire-OAuth2_Tests-umbrella.h */,
+				2BE49BEBFD0C21C2DB9ABA3C7C978DDE /* Pods-Alamofire-OAuth2_Tests.debug.xcconfig */,
+				64EB39E6429F7A394279A6510FD51B3D /* Pods-Alamofire-OAuth2_Tests.release.xcconfig */,
+			);
+			name = "Pods-Alamofire-OAuth2_Tests";
+			path = "Target Support Files/Pods-Alamofire-OAuth2_Tests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EFE8DDEF9036156E3CEFEC8C2FF47D91 /* Alamofire-OAuth2 */ = {
+			isa = PBXGroup;
+			children = (
+				1224C28C354898A561ED2F157DFF7C6C /* Alamofire-OAuth2 */,
+				9C53E059036ECEB56DA96ACE8C9154C8 /* Support Files */,
+			);
+			name = "Alamofire-OAuth2";
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5C5D0DF30F0780B9F72692289994302E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39A812CB1137B250113E79E3FE277065 /* Pods-Alamofire-OAuth2_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A521C11FCE18E91CA539575D2B4C1F2F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6558ED9F443A86B90EF469CDF4AC3F7C /* Alamofire-OAuth2-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		68F46832B47A8A2C3D1AAFF78F6EFAA7 /* Alamofire-OAuth2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3200B1CFADCF0993E107A737A3C17F6E /* Build configuration list for PBXNativeTarget "Alamofire-OAuth2" */;
+			buildPhases = (
+				44D4A32C89627143DF18923F46D57CBE /* Sources */,
+				FEBC902DC467F228C6348E1AE9F60013 /* Frameworks */,
+				A521C11FCE18E91CA539575D2B4C1F2F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Alamofire-OAuth2";
+			productName = "Alamofire-OAuth2";
+			productReference = 00CEB739F0806DDF7171F7C40E541F29 /* Alamofire_OAuth2.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		796B3F2D3296BF2FDEE955D4CDBDFB44 /* Pods-Alamofire-OAuth2_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72B2B8DAD94F847072AC06DCBD541ED3 /* Build configuration list for PBXNativeTarget "Pods-Alamofire-OAuth2_Tests" */;
+			buildPhases = (
+				93543964284492D0A1A276BBBE063549 /* Sources */,
+				0E86B97FE630B2EB0B3FF47B0AF83088 /* Frameworks */,
+				5C5D0DF30F0780B9F72692289994302E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8705473D525CFC3476B6954823385D2A /* PBXTargetDependency */,
+			);
+			name = "Pods-Alamofire-OAuth2_Tests";
+			productName = "Pods-Alamofire-OAuth2_Tests";
+			productReference = B77CA6B98D04C6219A507FA67F8DD7C3 /* Pods_Alamofire_OAuth2_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 080740D680D5A8C11EA560D9F30A75A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68F46832B47A8A2C3D1AAFF78F6EFAA7 /* Alamofire-OAuth2 */,
+				796B3F2D3296BF2FDEE955D4CDBDFB44 /* Pods-Alamofire-OAuth2_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44D4A32C89627143DF18923F46D57CBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1289092967D97DA38962AFD0DDE2D1B0 /* Alamofire-OAuth2-dummy.m in Sources */,
+				9B38519DDC7309E299C84D00A46B4C7A /* OAuth2Client.swift in Sources */,
+				9AB59CC1EF48F5807113FD2A885CDCD0 /* OAuth2Router.swift in Sources */,
+				1C75683EA30F7FEFEB54D721FCE710F6 /* OAuth2Token.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93543964284492D0A1A276BBBE063549 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F2DB052BBEFD5BD91B7F23B7229DE24 /* Pods-Alamofire-OAuth2_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8705473D525CFC3476B6954823385D2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Alamofire-OAuth2";
+			target = 68F46832B47A8A2C3D1AAFF78F6EFAA7 /* Alamofire-OAuth2 */;
+			targetProxy = 0F4C8B98B72D40CE0D4CB40FC89E11EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0445A29814971C21F2026E932D2772EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BE49BEBFD0C21C2DB9ABA3C7C978DDE /* Pods-Alamofire-OAuth2_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Alamofire-OAuth2_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Alamofire-OAuth2_Tests/Pods-Alamofire-OAuth2_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Alamofire_OAuth2_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E83BA9F3CDC682DD415D9D7F7343DD11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64EB39E6429F7A394279A6510FD51B3D /* Pods-Alamofire-OAuth2_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Alamofire-OAuth2_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Alamofire-OAuth2_Tests/Pods-Alamofire-OAuth2_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Alamofire_OAuth2_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EC72E75E533D9973CBCDC7F8C49011A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C160B6CA9DD10DA36572F538266A7955 /* Alamofire-OAuth2.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire-OAuth2/Alamofire-OAuth2-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire-OAuth2/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alamofire-OAuth2/Alamofire-OAuth2.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Alamofire_OAuth2;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F83D643520287E072EB71E227799777A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C160B6CA9DD10DA36572F538266A7955 /* Alamofire-OAuth2.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire-OAuth2/Alamofire-OAuth2-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire-OAuth2/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alamofire-OAuth2/Alamofire-OAuth2.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Alamofire_OAuth2;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */,
+				0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3200B1CFADCF0993E107A737A3C17F6E /* Build configuration list for PBXNativeTarget "Alamofire-OAuth2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F83D643520287E072EB71E227799777A /* Debug */,
+				EC72E75E533D9973CBCDC7F8C49011A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72B2B8DAD94F847072AC06DCBD541ED3 /* Build configuration list for PBXNativeTarget "Pods-Alamofire-OAuth2_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0445A29814971C21F2026E932D2772EC /* Debug */,
+				E83BA9F3CDC682DD415D9D7F7343DD11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

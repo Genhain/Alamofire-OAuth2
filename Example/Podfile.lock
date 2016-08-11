@@ -1,0 +1,16 @@
+PODS:
+  - Alamofire-OAuth2 (0.1.0)
+
+DEPENDENCIES:
+  - Alamofire-OAuth2 (from `../`)
+
+EXTERNAL SOURCES:
+  Alamofire-OAuth2:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Alamofire-OAuth2: 367a0fad267fc63b693f2a01db7c8b2b998880a8
+
+PODFILE CHECKSUM: 74b6ae49fdaafd9d4117b62eb9d59ce2af8776c4
+
+COCOAPODS: 1.0.1
