@@ -19,7 +19,7 @@ internal enum OAuth2Router: URLRequestConvertible {
     case RefreshToken(String)
     
     private var baseURL: NSURL {
-        return OAuth2Client.baseURL
+        return OAuth2Manager.baseURL
     }
     
     private var method: Alamofire.Method {
@@ -27,7 +27,7 @@ internal enum OAuth2Router: URLRequestConvertible {
     }
     
     private var path: String? {
-        return OAuth2Client.authenticationPath
+        return OAuth2Manager.authenticationPath
     }
     
     var parameters: [String: AnyObject]? {
@@ -37,15 +37,15 @@ internal enum OAuth2Router: URLRequestConvertible {
                 "grant_type" : "password",
                 "username" : username,
                 "password" : password,
-                "client_id" : OAuth2Client.clientID,
-                "client_secret" : OAuth2Client.clientSecret
+                "client_id" : OAuth2Manager.clientID,
+                "client_secret" : OAuth2Manager.clientSecret
             ]
         case .RefreshToken(let token):
             return [
                 "grant_type" : "refresh_token",
                 "refresh_token" : token,
-                "client_id" : OAuth2Client.clientID,
-                "client_secret" : OAuth2Client.clientSecret
+                "client_id" : OAuth2Manager.clientID,
+                "client_secret" : OAuth2Manager.clientSecret
             ]
         }
     }
