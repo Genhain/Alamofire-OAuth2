@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Alamofire-OAuth2'
-  s.version          = '0.1.1'
+  s.version          = '0.2.0'
   s.summary          = 'A short description of Alamofire-OAuth2.'
 
   s.homepage         = 'https://github.com/pencildrummer/Alamofire-OAuth2'
