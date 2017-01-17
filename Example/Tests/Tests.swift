@@ -1,6 +1,6 @@
 import UIKit
 import XCTest
-import Alamofire-OAuth2
+import Alamofire_OAuth2
 
 class Tests: XCTestCase {
     

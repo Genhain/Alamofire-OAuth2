@@ -21,6 +21,6 @@ Pod::Spec.new do |s|
   s.source_files = 'Alamofire-OAuth2/Classes/**/*'
 
   s.dependency 'Alamofire', '~> 3.3'
-  s.dependency 'AlamofireObjectMapper'
+  s.dependency 'p2.OAuth2', '~> 2.0'
 
 end

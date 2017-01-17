@@ -1,9 +1,8 @@
 {
   "name": "Alamofire-OAuth2",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "A short description of Alamofire-OAuth2.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/Alamofire-OAuth2",
+  "homepage": "https://github.com/pencildrummer/Alamofire-OAuth2",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +11,19 @@
     "Fabio Borella": "info@pencildrummer.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/Alamofire-OAuth2.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/pencildrummer/Alamofire-OAuth2.git",
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "Alamofire-OAuth2/Classes/**/*"
+  "source_files": "Alamofire-OAuth2/Classes/**/*",
+  "dependencies": {
+    "Alamofire": [
+      "~> 3.3"
+    ],
+    "p2.OAuth2": [
+      "~> 2.0"
+    ]
+  }
 }

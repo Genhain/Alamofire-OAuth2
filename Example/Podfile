@@ -2,5 +2,4 @@ use_frameworks!
 target 'Alamofire-OAuth2_Tests' do
   pod 'Alamofire-OAuth2', :path => '../'
   
-  
 end
